@@ -1,7 +1,6 @@
 package com.example.restaurantmenu.database
 
 import com.example.restaurantmenu.models.MenuItem
-import com.example.restaurantmenu.database.MealDatabase.mealsList
 
 object DrinkDatabase {
 
@@ -18,7 +17,7 @@ object DrinkDatabase {
         MenuItem(10, "Chá Gelado", "Chá preto com limão e gelo", 9.80)
     )
 
-    fun findAll() = mealsList
+    fun findAll() = drinkList
 
-    fun findById(id: Int) = mealsList.firstOrNull { it.id == id }
+    fun findById(id: Int) = drinkList.firstOrNull { it.id == id }
 }
