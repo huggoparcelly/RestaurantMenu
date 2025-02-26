@@ -1,4 +1,4 @@
-package com.example.restaurantmenu.meals
+package com.example.restaurantmenu.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.restaurantmenu.R
 
 
-class MealsFragment : Fragment() {
+class DrinksFragment : Fragment() {
 
     private lateinit var mRecyclerView: RecyclerView
 
@@ -17,7 +17,7 @@ class MealsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_meals, container, false)
+        return inflater.inflate(R.layout.fragment_drinks, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

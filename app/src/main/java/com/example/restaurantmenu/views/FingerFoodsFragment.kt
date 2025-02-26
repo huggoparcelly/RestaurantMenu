@@ -1,4 +1,4 @@
-package com.example.restaurantmenu.finger_foods
+package com.example.restaurantmenu.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
